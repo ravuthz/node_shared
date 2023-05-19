@@ -11,7 +11,7 @@
       "dom"
     ],
     "module": "commonjs",
-    "outDir": "lib",
+    "outDir": "dist",
     "skipLibCheck": true,
     "strict": true,
     "target": "es5"
