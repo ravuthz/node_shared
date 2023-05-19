@@ -2,7 +2,8 @@
   "name": "node-shared",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "src/index.ts",
+  "type": "module",
+  "main": "build/index.js",
   "scripts": {
     "dev": "nodemon",
     "exec": "ts-node ./src/index.ts",
