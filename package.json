@@ -1,14 +1,19 @@
 {
   "name": "node-shared",
   "version": "1.0.0",
+  "description": "",
   "license": "MIT",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "Vannaravuth Yo <ravuthz@gmail.com> (https://ravuthz.github.io)",
   "scripts": {
-    "dev": "nodemon",
-    "exec": "ts-node ./src/index.ts",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node ./build/index.js"
+    "build": "tsc"
+    // "dev": "nodemon",
+    // "exec": "ts-node ./src/index.ts",
+    // "build": "rimraf ./build && tsc",
+    // "start": "npm run build && node ./build/index.js"
   },
   "devDependencies": {
     "@types/node": "^20.2.1",
